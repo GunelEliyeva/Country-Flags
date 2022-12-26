@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    
+  
+  
+    h1 {
+      color: black;
+      font-size: 24px;
+      @media only screen and (max-width: 768px) {
+        font-size: 14px;
+      width: 200px;
+      }
+    }
+
+    .dark-mode {
+      .btn-dark {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .fa-regular {
+          font-size: 20px;
+          padding-right: 10px;
+        }
+
+        @media only screen and (max-width: 768px) {
+          font-size: 14px;
+          width: 150px;
+      
+        }
+      }
+    }
+  }
+}
+
+.dark-mode{
+  .container{
+    background-color: #2B3844;
+    color: white;
+    h1{
+      color: white;
+    }
+  }
+
+  .home-page{
+    background-color:#202C36;
+  }
+
+  .cards{
+    .card{
+    background-color: #2B3844;
+    color: white;
+    }
+  }
+.input-filter{
+  .search{
+    .input{
+      background-color:  #2B3844;
+      color: white;
+    }
+    .select{
+      background-color:  #2B3844;
+      color: white;
+    }
+  }}
+
+ 
+}
